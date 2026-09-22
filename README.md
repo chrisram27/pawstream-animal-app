@@ -2,15 +2,15 @@
 
 # AND101 Project 3 - AnimalApps
 
-Submitted by: **Your Name Here**
+Submitted by: **Christian Ramirez**
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that was riddle with some pretty nasty Kotlin bugs.  With those gone, it's a collection of widgets for a variety of purposes!  **Change or add to this description**
+**PawStream** is an Android app that recreates the Twitch sign-up screen with an animal theme. The app uses a paw logo and recreates the username, password, date of birth, and phone number sections of the original Twitch layout.
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **🐾 📱 💜**
 
 ## Application Features
 
@@ -18,12 +18,12 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] Pick an app screenshot to duplicate
+- [x] Pick an app screenshot to duplicate
     - Be sure to add the screenshot to "Chosen Screenshot" below.
-- [ ] Create a runnable app that displays an Animal Version of your chosen screenshot
-- [ ] Layout uses one (1) or more ConstraintLayout
-- [ ] Layout uses one (1) or more ImageView
-- [ ] Layout uses three (3) or more TextViews
+- [x] Create a runnable app that displays an Animal Version of your chosen screenshot
+- [x] Layout uses one (1) or more ConstraintLayout
+- [x] Layout uses one (1) or more ImageView
+- [x] Layout uses three (3) or more TextViews
 
 The following STRETCH features are implemented:
 
@@ -34,14 +34,13 @@ The following STRETCH features are implemented:
 
 The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve the app!
+- [x] Added custom border Shape Drawables to make the input fields look more like the original Twitch layout.
 
 ## Chosen Screenshot
 
 I have chosen to duplicate the following layout from the **App Name Here** app:
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
-
+<img src='screenshots/twitchlogin.jpeg' title='Chosen Screenshot' width='300' alt='Chosen Screenshot' />
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
@@ -57,19 +56,14 @@ GIF created with **your chosen GIF tool**
 
 ## Original App Layout (Optional Stretch Feature)
 
-Here is my entry for the "Create a second layout, this time for an original, personal app idea" stretch feature:
-
-It is for an app that **brief description**.
-
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
-
+I did not do this optional stretch feature
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+This project helped me learn how to use ConstraintLayout, ImageView, TextView, EditText, and Shape Drawables in Android Studio. I also learned how to use constraints and margins to position UI elements and recreate an existing app layout.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2026** **Christian Ramirez**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
