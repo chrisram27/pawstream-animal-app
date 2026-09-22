@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pawLogo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/paw"
+        android:contentDescription="PawStream logo"
+        app:layout_constraintEnd_toStartOf="@id/pawstream"
+        app:layout_constraintTop_toTopOf="@id/pawstream"
+        app:layout_constraintBottom_toBottomOf="@id/pawstream" />
+
+    <TextView
+        android:id="@+id/pawstream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Join PAWSTREAM today"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Username"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pawstream" />
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/purple_border"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username" />
+
+    <TextView
+        android:id="@+id/usrnotice"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="This is the name pets will know you by on PAWSTREAM. You can always change it later"
+        android:textColor="#53535F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usr" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Password"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usrnotice"  />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:background="@drawable/grey_border"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pass" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Date of birth"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:text="Month ▼"
+        android:background="@android:drawable/editbox_background"
+        app:layout_constraintStart_toStartOf="@id/dob"
+        app:layout_constraintTop_toBottomOf="@id/dob" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:text="Day ▼"
+        android:background="@android:drawable/editbox_background"
+        app:layout_constraintStart_toEndOf="@id/month"
+        app:layout_constraintTop_toTopOf="@id/month" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:text="Year ▼"
+        android:background="@android:drawable/editbox_background"
+        app:layout_constraintStart_toEndOf="@id/day"
+        app:layout_constraintTop_toTopOf="@id/month" />
+
+    <TextView
+        android:id="@+id/phoneLabel"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Phone number"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/month" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="United States +1 ▼"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/phoneLabel"
+        app:layout_constraintTop_toBottomOf="@id/phoneLabel" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:inputType="phone"
+        android:background="@drawable/grey_border"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toEndOf="@id/country"
+        app:layout_constraintTop_toTopOf="@id/country" />
+
+    <TextView
+        android:id="@+id/useEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Use email instead"
+        android:textColor="#9146FF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/phoneLabel"
+        app:layout_constraintTop_toBottomOf="@id/country" />
+
+    <TextView
+        android:id="@+id/phoneNotice"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="PAWSTREAM may use your phone number to call or send text messages with information regarding your account."
+        android:textColor="#53535F"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/useEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
