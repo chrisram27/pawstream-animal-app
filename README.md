@@ -45,7 +45,7 @@ I have chosen to duplicate the following layout from the **Twitch** app:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/DJrk6Ue' title='Video Demo' width='300' alt='Video Demo' />
+<img src='./pawstream_demo.gif' title='Video Demo' width='300' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
 
