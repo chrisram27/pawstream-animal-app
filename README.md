@@ -47,7 +47,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='./pawstream_demo.gif' title='Video Demo' width='300' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **ScreentoGif**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -57,6 +57,7 @@ GIF created with **your chosen GIF tool**
 ## Original App Layout (Optional Stretch Feature)
 
 I did not do this optional stretch feature
+
 ## Notes
 
 This project helped me learn how to use ConstraintLayout, ImageView, TextView, EditText, and Shape Drawables in Android Studio. I also learned how to use constraints and margins to position UI elements and recreate an existing app layout.
