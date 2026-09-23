@@ -38,14 +38,14 @@ The following EXTRA features are implemented:
 
 ## Chosen Screenshot
 
-I have chosen to duplicate the following layout from the **App Name Here** app:
+I have chosen to duplicate the following layout from the **Twitch** app:
 
 <img src='screenshots/twitchlogin.jpeg' title='Chosen Screenshot' width='300' alt='Chosen Screenshot' />
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://imgur.com/DJrk6Ue' title='Video Demo' width='300' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
 
